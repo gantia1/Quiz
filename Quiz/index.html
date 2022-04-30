@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="index.js" defer></script>
+    <script src="questions.js"></script>
+    <title>ქვიზი დედაქალაქებზე</title>
+</head>
+<body>
+    <!-- ქვიზის დაწყების button -->
+    <div class="start_btn"><button>ქვიზის დაწყება</button></div>
+
+    <!-- ქვიზის შესახებ -->
+    <div class="info_box">
+        <div class="info-title"><span>ქვიზის შესახებ</span></div>
+        <div class="info-list">
+            <div class="info">1. თქვენ გაქვთ მხოლოდ <span>10 წამი</span> თითო კითხვაზე.</div>
+            <div class="info">2. იმ შემთხვევაში თუ მონიშნეთ პასუხი, უკან ვეღარ დააბრუნებთ.</div>
+            <div class="info">3. როცა ქვიზი ჩაირთვება გამოსვლა არ შეგეძლებათ.</div>
+            <div class="info">4. ქვიზის დასრულების შემდეგ გაიგებთ რამდენი ქულა აიღეთ.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">გამოსვლა</button>
+            <button class="restart">გაგრძელება</button>
+        </div>
+    </div>
+
+    <!-- ქვიზი -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">ქვიზი დედაქალაქებზე</div>
+            <div class="timer">
+                <div class="time_left_txt">დარჩენილი დრო</div>
+                <div class="timer_sec">10</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">შემდეგი</button>
+        </footer>
+    </div>
+
+    <!-- პასუხები -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-award"></i>
+        </div>
+        <div class="complete_text">თქვენ დაასრულეთ ქვიზი!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">თავიდან ცდა</button>
+            <button class="quit">გამოსვლა</button>
+        </div>
+    </div>
+</body>
+</html>
+</html>
